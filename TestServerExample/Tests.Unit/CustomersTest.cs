@@ -45,7 +45,7 @@ namespace Tests.Unit
         }
 
         [Test]
-        public async Task CustomersTest()
+        public async Task Customers()
         {
             var context = _serviceProvider.GetService<DblContext>();
             context.Set<Customer>().Add(new Customer
