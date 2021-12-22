@@ -1,0 +1,116 @@
+[
+  {
+    "clientId": 10,
+    "amount": 783,
+    "currency": "EUR",
+    "issued": "2021-12-10T14:50:44.4851874+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 814,
+    "currency": "USD",
+    "issued": "2021-12-08T14:50:44.4851909+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 496,
+    "currency": "USD",
+    "issued": "2021-11-22T14:50:44.4851945+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 583,
+    "currency": "USD",
+    "issued": "2021-11-29T14:50:44.485198+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 544,
+    "currency": "GBR",
+    "issued": "2021-12-11T14:50:44.4852016+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 623,
+    "currency": "USD",
+    "issued": "2021-12-18T14:50:44.485205+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 321,
+    "currency": "GBR",
+    "issued": "2021-12-15T14:50:44.4852086+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 523,
+    "currency": "EUR",
+    "issued": "2021-12-06T14:50:44.4852122+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 190,
+    "currency": "USD",
+    "issued": "2021-11-24T14:50:44.4852156+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 30,
+    "currency": "GBR",
+    "issued": "2021-11-30T14:50:44.4852191+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 453,
+    "currency": "USD",
+    "issued": "2021-12-06T14:50:44.4852228+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 291,
+    "currency": "EUR",
+    "issued": "2021-12-20T14:50:44.4852261+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 306,
+    "currency": "EUR",
+    "issued": "2021-12-14T14:50:44.4852299+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 667,
+    "currency": "USD",
+    "issued": "2021-12-15T14:50:44.4852336+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 362,
+    "currency": "EUR",
+    "issued": "2021-12-02T14:50:44.4852371+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 432,
+    "currency": "USD",
+    "issued": "2021-12-06T14:50:44.4852407+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 478,
+    "currency": "EUR",
+    "issued": "2021-12-14T14:50:44.4852444+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 530,
+    "currency": "EUR",
+    "issued": "2021-12-15T14:50:44.485248+00:00"
+  },
+  {
+    "clientId": 10,
+    "amount": 925,
+    "currency": "EUR",
+    "issued": "2021-12-20T14:50:44.4852515+00:00"
+  }
+]

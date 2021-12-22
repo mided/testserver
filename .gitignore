@@ -1,0 +1,13 @@
+TestServerExample/ThirdPartySystem/obj/
+TestServerExample/ThirdPartySystem/bin/
+TestServerExample/ThirdPartySystem/Properties/
+TestServerExample/Tests.Unit/bin/
+TestServerExample/Tests.Unit/obj/
+TestServerExample/Tests.Integration/bin/
+TestServerExample/Tests.Integration/obj/
+TestServerExample/OurBackendAPI/obj/
+TestServerExample/OurBackendAPI/bin/
+TestServerExample/DatabaseLayer/obj/Debug/net5.0/DatabaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+TestServerExample/CommonInterfaces/obj/
+TestServerExample/DatabaseLayer/bin/
+TestServerExample/DatabaseLayer/obj/
