@@ -67,8 +67,9 @@ namespace Tests.Unit
 
             var result = ((OkObjectResult)await controller.GetById(10)).Value as CustomerOutModel;
 
-            Assert.AreSame(result.EmailAddress, result.EmailAddress);
-            Assert.AreEqual(result.Invoices.Count(), result.Invoices.Count());
+            Assert.AreEqual(result.EmailAddress, "kathleen0@adventure-works.com");
+            Assert.AreEqual(result.CustomerId, 10);
+            Assert.AreEqual(result.Invoices.Count(), 19);
         }
     }
 }
