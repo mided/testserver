@@ -51,8 +51,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'f484b967-3e5f-4747-81c0-2ffc44046802'
+    azureSubscription: 'Visual Studio Professional(fb8414da-93dc-4ff3-9542-d16a584ccfa0)'
     appType: 'webApp'
     WebAppName: 'for-test-server'
     packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
-
