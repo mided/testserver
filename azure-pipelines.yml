@@ -28,6 +28,26 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+# Run Unit Tests
+- task: DotNetCoreCLI@2
+  displayName: UnitTests And CodeCoverage API
+  inputs:
+    command: test
+    arguments: '--configuration $(buildConfiguration)  /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=$(Build.SourcesDirectory)/TestResults/Coverage/'
+    publishTestResults: true
+    projects: '$(Build.SourcesDirectory)/**/Tests*.csproj'
+    testRunTitle: 'UnitTestsAndCodeCoverage'
+    nobuild: true
+    continueOnError: false
+
+# Publish Code Coverage
+- task: PublishCodeCoverageResults@1
+  displayName: Publish CodeCoverage API
+  inputs:
+    codeCoverageTool: 'Cobertura'
+    summaryFileLocation: '$(Build.SourcesDirectory)/**/coverage.cobertura.xml'
+
+
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
